@@ -1,0 +1,17 @@
+
+#header1 {
+    background: url(images/back.jpg) no-repeat;
+    width: 1360px;
+    height: 500px;
+    background-color: #060;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, .5);
+}
+.image1{
+    height: 80px;
+    width: 80px;
+    margin-right: 420px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+} 
