@@ -1,9 +1,12 @@
 <html lang="en">
     <head>
-        <meta charset="utf-8">
+     <meta charset="utf-8">
 
         <title>HTML5 Index Page</title>
+        <meta name="description" content="This is an HTML5 file. This description text must be changed for SEO purpose">
 
+        <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" href="style.css">
 
         <script src="vendor/jquery-2.2.4.min.js"></script>
@@ -129,7 +132,48 @@
         <br/>
         
         
-        
+         <div class="row">
+            
+             <div class="container">
+                <h1>Use Bootstrap's carousel to show multiple items per slide.</h1>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="carousel slide multi-item-carousel" id="theCarousel">
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <div class="col-xs-4"><a href="#1"><img src="images/image1.jpg" class="img-responsive"></a></div>
+                                </div>
+                                <div class="item">
+                                    <div class="col-xs-4"><a href="#1"><img src="images/image2.jpg" class="img-responsive"></a></div>
+                                </div>
+                                <div class="item">
+                                    <div class="col-xs-4"><a href="#1"><img src="images/image3.jpg" class="img-responsive"></a></div>
+                                </div>
+                                <div class="item">
+                                    <div class="col-xs-4"><a href="#1"><img src="images/image4.jpg" class="img-responsive"></a></div>
+                                </div>
+                                <div class="item">
+                                    <div class="col-xs-4"><a href="#1"><img src="images/image5.jpg" class="img-responsive"></a></div>
+                                </div>
+                                <div class="item">
+                                    <div class="col-xs-4"><a href="#1"><img src="images/image6.jpg" class="img-responsive"></a></div>
+                                </div>
+                                <!-- add  more items here -->
+                                <!-- Example item start:  -->
+
+                                <div class="item">
+                                    <div class="col-xs-4"><a href="#1"><img src="images/image7.jpg" class="img-responsive"></a></div>
+                                </div>
+
+                                <!--  Example item end -->
+                            </div>
+                            <a class="left carousel-control" href="#theCarousel" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
+                            <a class="right carousel-control" href="#theCarousel" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         
     </body>
 </html>
