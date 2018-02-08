@@ -25,7 +25,7 @@
                                     <span class="icon-bar"></span>
                                     <span class="icon-bar"></span>
                                 </button>
-                                <img src="images/Burger_King_Logo.svg.png" alt="" class="image1"/>
+                                <img src="images/Burger_King_Logo.svg.png" alt="" class="image1" class="img-responsive"/>
                             </div>
                             <div class="collapse navbar-collapse" id="myNavbar">
                                 <ul class="nav navbar-nav navbar-right masthead-nav">
@@ -93,17 +93,17 @@
         <br/>
         <div class="owl-carousel owl-theme" id="1">
             <div> <img src="images/image-1.jpg" alt=""/> </div>
+            <div> <img src="images/image-2.jpg" class="img-responsive"> </div>
             <div> <img src="images/image-1.jpg" class="img-responsive"> </div>
-            <div> <img src="images/image-1.jpg" class="img-responsive"> </div>
+            <div> <img src="images/image-3.jpg" class="img-responsive">  </div>
             <div> <img src="images/image-1.jpg" class="img-responsive">  </div>
-            <div> <img src="images/image-1.jpg" class="img-responsive">  </div>
-            <div> <img src="images/image-1.jpg" class="img-responsive">  </div>
+            <div> <img src="images/image-4.jpg" class="img-responsive">  </div>
             <div> <img src="images/image-1.jpg" class="img-responsive"> </div>
         </div>
 
 
 
-    </div>
+   
 
 
     <script src="vendor/jquery-2.2.4.min.js"></script>
