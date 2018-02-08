@@ -13,7 +13,7 @@
         <link href="owl/assets/owl.theme.default.min.css" rel="stylesheet" type="text/css"/>
 
 
-
+        <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
         <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
         <!--[if lt IE 9]>
           <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -26,31 +26,63 @@
 
 
         <div class="container-fluid">
-            <div class="row" id="header1">
-                <div class="container header inner">
-                    <nav class="navbar">
-                        <div class="container">
+            <div class="row" >
+
+                <nav   id="header1" style="padding-bottom: 20px; margin-top: 5px;">
+                    <div class="container-fluid">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
                             <div class="navbar-header">
-                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                </button>
-                                <img src="images/Burger_King_Logo.svg.png" alt="" class="image1"/>
-                            </div>
-                            <div class="collapse navbar-collapse" id="myNavbar">
-                                <ul class="nav navbar-nav navbar-right masthead-nav">
-                                    <li><a href="#"> E-commerce Logistics</a></li>
-                                    <li><a href="#"> Contract Logistics</a></li>
-                                    <li><a href="#"> Courier</a></li>
-                                    <li><a href="#"> Transport</a></li>
-                                </ul>
+                                <a class="navbar-brand" href="#">
+                                    <img src="images/Burger_King_Logo.svg.png" alt="" class="image1"/>
+                                </a>
                             </div>
                         </div>
-                    </nav>
-                </div> 
-            </div> 
-        </div> 
+
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav">
+                                <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+                                <li><a href="#">Link</a></li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Action</a></li>
+                                        <li><a href="#">Another action</a></li>
+                                        <li><a href="#">Something else here</a></li>
+                                        <li role="separator" class="divider"></li>
+                                        <li><a href="#">Separated link</a></li>
+                                        <li role="separator" class="divider"></li>
+                                        <li><a href="#">One more separated link</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            
+                                
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a href="#">Link</a></li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Action</a></li>
+                                        <li><a href="#">Another action</a></li>
+                                        <li><a href="#">Something else here</a></li>
+                                        <li role="separator" class="divider"></li>
+                                        <li><a href="#">Separated link</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div><!-- /.navbar-collapse -->
+                    </div><!-- /.container-fluid -->
+                </nav>
+            </div>
+        </div>
         <br/>
         <br/>
         <br/>
@@ -111,7 +143,7 @@
                 </div>
                 <div class="col-lg-6">
                     <h3 class="text-center"><b>About As..!</b> </h3>
-                    <p class="text-justify">It is a long established fact that a reader will be distracted
+                    <p class="text-justify" style="font-family: 'Oswald', sans-serif;">It is a long established fact that a reader will be distracted
                         by the readable content of a page when looking at its layout. The point of using Lorem 
                         Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 
                         'Content here, content here', making it look like readable English. Many desktop publishing
@@ -133,26 +165,26 @@
         <br/>
         <div class="owl-carousel owl-theme" id="1">
             <div> <img src="images/image-1.jpg" alt=""/> </div>
-            <div> <img src="images/image-1.jpg" class="img-responsive"> </div>
-            <div> <img src="images/image-1.jpg" class="img-responsive"> </div>
+            <div> <img src="images/image-2.jpg" class="img-responsive"> </div>
+            <div> <img src="images/image-4.jpg" class="img-responsive"> </div>
+            <div> <img src="images/image-3.jpg" class="img-responsive">  </div>
             <div> <img src="images/image-1.jpg" class="img-responsive">  </div>
-            <div> <img src="images/image-1.jpg" class="img-responsive">  </div>
-            <div> <img src="images/image-1.jpg" class="img-responsive">  </div>
-            <div> <img src="images/image-1.jpg" class="img-responsive"> </div>
+            <div> <img src="images/image-4.jpg" class="img-responsive">  </div>
+            <div> <img src="images/image-2.jpg" class="img-responsive"> </div>
         </div>
         <div class="container">    
             <div class="row">
-                <div class="col-md-3 col-lg-3">
-                    <img src="images/dark1.jpg" alt="" id="image3"/>
+                <div class="col-md-3 col-lg-3 col-xs-6 col-sm-6">
+                    <img src="images/dark1.jpg" alt="" id="image3" class="img-responsive"/>
                 </div>
-                <div class="col-md-3 col-lg-3">
-                    <img src="images/dark2.jpg" alt="" id="image3"/>
+                 <div class="col-md-3 col-lg-3 col-xs-6 col-sm-6">
+                    <img src="images/dark2.jpg" alt="" id="image3"  class="img-responsive"/>
                 </div>
-                <div class="col-md-3 col-lg-3">
-                    <img src="images/dark3.jpg" alt="" id="image3"/>
+                <div class="col-md-3 col-lg-3 col-xs-6 col-sm-6">
+                    <img src="images/dark3.jpg" alt="" id="image3"  class="img-responsive"/>
                 </div>
-                <div class="col-md-3 col-lg-3">
-                    <img src="images/dark4.jpg" alt="" id="image3"/>
+                <div class="col-md-3 col-lg-3 col-xs-6 col-sm-6">
+                    <img src="images/dark4.jpg" alt="" id="image3"  class="img-responsive"/>
                 </div>
             </div>
         </div>
