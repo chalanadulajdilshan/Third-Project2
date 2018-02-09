@@ -1,25 +1,16 @@
 
-#header1 {
-    background: url(images/back.png) no-repeat;
-    width:100%;
-    height: auto;
-    background-color: #060;
-    color: #fff;
-    text-align: center;
-    text-shadow: 0 1px 3px rgba(0, 0, 0, .5);
-}
+
 .image1{
-    height: 70px;
-    width: 80px;
+    height: 80px;
+    width: 100px;
     margin-right: 0px;
     padding-top: 0px;
     padding-bottom: 15px;
 } 
 
- #image3{
-                border-radius: 6px;
-                height: 260px;
-                width: 280px;
-                padding-bottom: 5px;
- }
- 
+#image3{
+    border-radius: 6px;
+    height: 260px;
+    width: 280px;
+    padding-bottom: 5px;
+}
